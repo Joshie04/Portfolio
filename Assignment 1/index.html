@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joshua John Danes</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+    </style>
+</head>
+<body>
+
+    <!--Navagation Bar and Home-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#home">Joshua John Danes</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#about">About Me</a></li>
+                <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                <li class="nav-item"><a class="nav-link" href="#blog">Blog</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="jumbotron text-center">
+        <h1 class="display-4">Hi, I am Joshua John Danes</h1>
+        <img src="./images/profilepic.png" alt="Profile Picture" class="rounded-circle" width="150">
+        <p class="lead">I'm a Software Developer passionate about creating dynamic, user-friendly websites with a focus on performance and scalability.</p>
+    </header>
+
+
+
+    <!--About Me-->
+    <div class="container my-5">
+        <h2>About Me</h2>
+        <p>Hello! I'm a Sofware Developer with a Bachelor of Arts in Information Technology and a passion for creating dynamic, user-friendly websites. Below is a brief overview of my skills and experiences.</p>
+        <h3>Biography</h3>
+        <p>I am third-year Information Technology at York University, committed, relentless problem-solver and enthusiastic learner with a deep passion for programming and software development.</p>
+        <ul>
+            <li>Education: Bachelor of Arts in Informtion Technology</li>
+            <li>Skills:
+                <ul>
+                    <li class="skills">Programming Languages: 
+                        <ul>
+                            <li>Java (Advanced)</li>
+                            <li> JavaScript (Beginner)</li>
+                        </ul>
+                    </li>
+                    <li class="skills">Web Technologies: 
+                        <ul>
+                            <li>HTML (Intermediate)</li>
+                            <li>CSS (Intermediate) </li>
+                        </ul>
+                    </li>
+                    <li class="skills">Database Management:
+                        <ul>
+                            <li>SQL (Beginner)</li>
+                        </ul>
+                    </li>
+                    <li class="skills">Software Development:
+                        <ul>
+                            <li>Agile methodologies (Intermediate)</li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li>Interests: Coding, Design, Music</li>
+        </ul>
+        <h3>Resume</h3>
+        <iframe src="Joshua John Danes - Resume.pdf" width="100%" height="600px"></iframe>
+        <br>
+        <a href="Joshua John Danes - Resume.pdf" class="btn btn-primary" download>Download Resume</a>
+    </div>
+
+
+    <!--Projects-->
+    <div class="container my-5">
+        <h2 id="projects">Projects</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/project1.jpg" class="card-img-top" alt="Project 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Project 1</h5>
+                        <p class="card-text">Description of Project 1.</p>
+                        <a href="https://live-demo.com" class="btn btn-primary">Live Demo</a>
+                        <a href="https://github.com/repository" class="btn btn-secondary">Repository</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/project2.jpg" class="card-img-top" alt="Project 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Project 2</h5>
+                        <p class="card-text">Description of Project 2.</p>
+                        <a href="https://live-demo.com" class="btn btn-primary">Live Demo</a>
+                        <a href="https://github.com/repository" class="btn btn-secondary">Repository</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Add more projects as needed -->
+        </div>
+    </div>
+
+
+
+
+    <!--Blog-->
+    <div class="container my-5">
+        <h2 id="blog">Blog</h2>
+        <p>Coming soon...</p>
+    </div>
+
+
+
+    <!--Contact Page-->
+    <div class="container my-5">
+        <h2 id="contact">Contact Me</h2>
+        <form>
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" class="form-control" id="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="email" required>
+            </div>
+            <div class="form-group">
+                <label for="subject">Subject</label>
+                <input type="text" class="form-control" id="subject" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea class="form-control" id="message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send</button>
+        </form>
+        <h3>Connect with me</h3>
+        <p>
+            <a href="https://www.linkedin.com/in/joshuajohn-danes/" class="btn btn-outline-dark">LinkedIn</a>
+            <a href="https://www.facebook.com/" class="btn btn-outline-dark">Facebook</a>
+            <a href="https://www.instagram.com/" class="btn btn-outline-dark">Instagram</a>
+            
+            
+    </div>
+
+
+
+
+    <footer class="text-center py-4">
+        <p>&copy; 2024 Joshua John Danes. All rights reserved.</p>
+    </footer>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
